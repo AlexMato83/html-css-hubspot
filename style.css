@@ -58,12 +58,13 @@ border:2px solid black;
   padding:0;
   box-sizing: border-box;
 }
+/* inizio HEADER-------------------------- */
 header{
 
   background-color: red;
   border:1px solid black;
 }
-/* inizio FASCIA FIXED----- */
+/* inizio FASCIA FIXED----- -------*/
 .clearfix {
   clear: both;
   content: "";
@@ -78,6 +79,7 @@ header{
   left:0;
   padding-left: 10%;
   padding-right: 10%;
+  padding-top: 20px;
 }
 #fascia_sx > ul > li {
   float: left;
@@ -119,23 +121,52 @@ header{
   width: 100%;
   padding:8px;
 }
-/* fine FASCIA FIXED-------- */
-/* inizio FASCIA INF-------- */
+/* fine FASCIA FIXED-------- --------*/
+/* inizio FASCIA INF-------- --------*/
 
 #fascia_inf{
   width: 100%;
+
+}
+
+/* inizio FASCIA INF SX */
+#fascia_inf {
   height: 80px;
+  padding:20px 0;
 }
 .clear {
-  width: 80%;
+  width: 90%;
   padding-left: 10%;
+
 }
 #logo {
   float: left;
+  border:1px solid black;
+
 }
+/* fine FASCIA INF SX */
+/* inizio FASCIA INF DX */
 #fascia_inf_dx {
-  
+  float: right;
+  width: 60%;
+  height:36px;
+  border:1px solid black;
 }
+#fascia_inf_dx > ul > li {
+  float: left;
+  list-style-type: none;
+  border:1px solid black;
+  height: 100%;
+  width: 20%;
+}
+#fascia_inf_dx > ul {
+  height: 100%;
+  padding:8px;
+}
+/* fine FASCIA INF DX -------*/
+/* fine FASCIA INFERIORE---------- */
+/* fine HEADER-------------------------- */
+
 
 
 
