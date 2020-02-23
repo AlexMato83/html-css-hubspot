@@ -65,7 +65,7 @@ header{
   border:1px solid black;
 }
 /* inizio FASCIA FIXED----- -------*/
-.clearfix {
+.clearfix:after {
   clear: both;
   content: "";
   display: table;
@@ -262,7 +262,7 @@ background-color: #00BFFF;
 #sez_5 {
   height: 680px;
   background-color: #DEB887;
-  padding:10% 10%;
+  padding:5% 10%;
 }
 #sez_5_testo {
   text-align: center;
@@ -299,6 +299,46 @@ background-color: #00BFFF;
 #sez_5_griglia_inf {
   width: 100%;
   height: 50%;
+}
+/* fine QUINTA sezione ------------------*/
+/* inizio SESTA sezione----------------- */
+#sez_6 {
+  height: 300px;
+  padding:5% 10%;
+}
+.sez_6_contenitore {
+  width: 100%;
+
+}
+/* inizio DIV SINISTRA di TESTO */
+#sez_6_testo {
+  float: left;
+  width: 30%;
+  height: 150px;
+}
+/* fine DIV SINISTRA di TESTO */
+/* inizio  LOGHI DESTRA*/
+.sez_6_cont_loghi {
+  width: 60%;
+  float: right;
+}
+.sez_6_cont_loghi:after{
+  clear: right;
+  content: "";
+  display: table;
+}
+.sez_6_loghi_sopra{
+  width: 100%;
+  height: 75px;
+}
+.sez_6_logo {
+  width: 25%;
+  float: left;
+  padding:12px;
+}
+.sez_6_logo img{
+  width: 100%;
+  height: 100%;
 }
 
 
