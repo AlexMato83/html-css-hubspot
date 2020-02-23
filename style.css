@@ -340,6 +340,22 @@ background-color: #00BFFF;
   width: 100%;
   height: 100%;
 }
+/* fine SESTA sezione-------------- */
+/* inizio SETTIMA sezione----------- */
+#sez_7 {
+  height: 500px;
+  padding:5% 10% 10% 10%;
+  background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/_style-guide/sword-sprocket/Variation-3@2x.png");
+  background-repeat:no-repeat;
+  background-position: 84%;
+  background-size: 30% 85%;
+}
+#sez_7_testo {
+  width: 45%;
+  height: 100%;
+}
+/* fine SETTIMA sezione------------- */
+
 
 
 
