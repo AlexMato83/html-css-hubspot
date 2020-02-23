@@ -74,7 +74,7 @@ header{
   height: 80px;
   width: 100%;
   border:1px solid black;
-  display: fixed;
+ position: fixed;
   top:0;
   left:0;
   padding-left: 10%;
@@ -249,12 +249,34 @@ background-color: #00BFFF;
   height: 100%;
 }
 .sez_4_blocchi:nth-child(2) {
-  margin:0 48px;
+  margin:0 46px;
 }
 .sez_4_blocchi:last-child {
   float: right;
 }
 /* fine QUARTA sezione */
+/* inizio QUINTA sezione */
+#sez_5 {
+  height: 680px;
+  background-color: #DEB887;
+  padding:10% 10%;
+}
+#sez_5_testo {
+  text-align: center;
+}
+
+#sez_5_contenitore {
+  height: 100%;
+  width: 100%;
+}
+#sez_5_griglia {
+  height: 65%;
+  width: 100%;
+}
+#sez_5_griglia_sup {
+  width: 100%;
+
+}
 
 
 
