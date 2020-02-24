@@ -61,8 +61,11 @@ border:2px solid black;
 }
 /* inizio HEADER-------------------------- */
 header{
- position: relative;
 
+ text-decoration:none;
+}
+header a {
+  text-decoration: none;
 
 }
 /* inizio FASCIA FIXED----- -------*/
@@ -78,8 +81,7 @@ header{
  position: fixed;
   top:0;
   left:0;
-  padding-left: 10%;
-  padding-right: 10%;
+ padding:0 10%;
   padding-top: 20px;
   background-color: #f5f8fa;
 }
@@ -142,7 +144,7 @@ header{
 }
 #fascia_dx > ul li:nth-of-type(2){
   margin-left: 12px;
-  margin-right: 26px;
+  margin-right: 28px;
   border:1px solid #ff7a59;
   background-color: white;
   border-radius: 5px;
@@ -163,17 +165,17 @@ header{
 #fascia_inf{
   width: 100%;
   margin-top: 80px;
-
+ padding: 0 10%;
 }
 
 /* inizio FASCIA INF SX */
 #fascia_inf {
   height: 80px;
-  padding:20px 0;
+  padding:20px 10% 20px;;
 }
 .clear {
-  width: 90%;
-  padding-left: 10%;
+  width: 100%;
+
 
 }
 #logo {
@@ -230,15 +232,20 @@ header{
   width: 100px;
   color:white;
   border-radius: 5px;
-  padding-top: 7px;
+  padding-top: 16px;
   text-decoration: none;
-  height:
+  display: inline-block;
+  width: 170px;
+  height: 55px;
+  text-align: center;
+  margin: 15px 0;
+
 }
 /* fine PRIMA sezione-------------------- */
 /* inizio SECONDA sezione---------------- */
 #sez_2 {
   height: 380px;
-  background-color:#7b97b7;
+  background-color:#f5f8fa;
   padding:10%;
 }
 
@@ -257,7 +264,7 @@ header{
 
 #sez_3 {
   height: 280px;
-  background-color: #7FFFD4;
+  background-color: #f5f8fa;
 
 }
 .sez_3_contenitore {
@@ -281,17 +288,17 @@ header{
 #sez_4{
 height: 580px;
 padding-left: 10%;
-background-color: #00BFFF;
+background-color: #f5f8fa;
 padding-top: 40px;
 }
 .sez_4_contenitore {
   width: 80%;
-  background-color: #2F4F4F;
+  background-color: #f5f8fa;
 }
 .sez_4_blocchi {
   width: 30%;
 
-  background-color: #FFFACD;
+  background-color: white;
   float: left;
   text-align: center;
 
@@ -342,10 +349,15 @@ padding-top: 40px;
 }
 .sez_4_blocchi a {
   background-color: #ff7a59;
-  width: 40%;
+  width: 52%;
   color:white;
   border-radius: 5px;
-  padding-top: 7px;
+  padding-top: 12px;
+  display: inline-block;
+  height: 45px;
+  text-decoration: none;
+  margin-bottom: 24px;
+  margin-top: 10px;
 }
 /* fine QUARTA sezione */
 /* inizio QUINTA sezione */
