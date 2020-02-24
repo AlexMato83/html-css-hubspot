@@ -102,6 +102,9 @@ header a {
 #fascia_sx > ul > li > a {
   margin-top:3px;
 }
+#fascia_sx > ul:first-child i {
+  padding-left: 10px;
+}
 
 #fascia_sx > ul {
   height: 100%;
@@ -158,6 +161,10 @@ header a {
   color:white;
   border-radius: 5px;
   padding-top: 7px;
+}
+#fascia_inf_dx i {
+  padding-left: 10px;
+
 }
 /* fine FASCIA FIXED-------- --------*/
 /* inizio FASCIA INF-------- --------*/
