@@ -283,6 +283,7 @@ header{
 height: 580px;
 padding-left: 10%;
 background-color: #00BFFF;
+padding-top: 40px;
 }
 .sez_4_contenitore {
   width: 80%;
@@ -290,10 +291,35 @@ background-color: #00BFFF;
 }
 .sez_4_blocchi {
   width: 30%;
-  height: 500px;
+
   background-color: #FFFACD;
   float: left;
   text-align: center;
+
+}
+.sez_4_blocchi li {
+    list-style-type: none;
+    padding:10px;
+    text-align: left;
+}
+.sez_4_blocchi li::before {
+  background: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg")
+}
+.sez_4_blocchi h4 {
+  font-size: x-large;
+  margin-bottom: 7px;
+
+}
+.sez_4_blocchi p{
+  line-height: 1.4;
+  border-bottom: 1px solid black;
+
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+}
+.sez_4_blocchi h6 {
+  font-size: unset;
+  padding-bottom: 7px;
 }
 .sez_4_img {
   width: 40%;
@@ -305,7 +331,7 @@ background-color: #00BFFF;
   height: 100%;
 }
 .sez_4_blocchi:nth-child(2) {
-  margin:0 46px;
+  margin:0 45px;
 }
 .sez_4_blocchi:last-child {
   float: right;
