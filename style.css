@@ -105,11 +105,13 @@ header a {
 }
 #fascia_sx > ul:first-child i {
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 #fascia_sx > ul {
   height: 100%;
   width: 100%;
+  margin-left: -10px;
 }
 
 #fascia_sx {
@@ -257,20 +259,30 @@ header a {
 /* fine PRIMA sezione-------------------- */
 /* inizio SECONDA sezione---------------- */
 #sez_2 {
-  height: 380px;
+  height: 430px;
   background-color:#f5f8fa;
-  padding:10%;
+  padding:5% 10%;
 }
 
 #sez_2_text {
-  height: 60%;
-  width: 80%;
-  background-color: pink;
+  height: 100%;
+  width: 100%;
+  background-color:#f5f8fa;
   text-align: center;
+  }
+#sez_2_text h2 {
+  margin-bottom: 10px;
+  font-size: xx-large;
+
+}
+#sez_2_text p {
+  line-height: 1.5;
+  font-size: none;
 }
 #sez_2_text img {
-  width: 20%;
-  height: 50%;
+  width: 30%;
+  height: 66%;
+}
 }
 /* fine SECONDA sezione------------------ */
 /* inizio TERZA sezione------------------ */
@@ -278,11 +290,11 @@ header a {
 #sez_3 {
   height: 280px;
   background-color: #f5f8fa;
-
 }
 .sez_3_contenitore {
   width: 80%;
-  background-color: green;
+  background-color: white;
+  margin:auto;
 }
 .sez_3_contenitore > libro >img {
   width: 15%;
@@ -292,6 +304,19 @@ header a {
   height: 200px;
   width: 18%;
   float: left;
+}
+#libro > a {
+  background-color: #ff7a59;
+  width: 85%;
+  height: 26%;
+  color:white;
+  border-radius: 5px;
+  padding-top: 12px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 12px;
+
 }
 #sez_3_testo {
   float: right;
