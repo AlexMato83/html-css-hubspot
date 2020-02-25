@@ -322,8 +322,8 @@ a {color:#33475b;
 /* fine TERZA sezione---------------------- */
 /* inizio QUARTA sezione------------------- */
 #sez_4{
-height: 630px;
-padding: 0 10%;
+
+padding: 5% 10%;
 background-color: #f5f8fa;
 padding-top: 40px;
 color:#33475b;
@@ -380,7 +380,7 @@ color:#33475b;
   height: 100%;
 }
 .sez_4_blocchi:nth-child(2) {
-  margin:0 45px;
+  margin:0 5%;
 }
 .sez_4_blocchi:last-child {
   float: right;
@@ -400,9 +400,9 @@ color:#33475b;
 /* fine QUARTA sezione */
 /* inizio QUINTA sezione */
 #sez_5 {
-  height: 725px;
+
   background-image: linear-gradient(45deg, #00a4bd, #00bda5);
-  padding: 10%;
+  padding: 10% 10% 30% 10%;
   color:white;
 }
 #sez_5_testo {
@@ -426,8 +426,7 @@ color:#33475b;
 #sez_5_griglia {
   height: 80%;
   width: 100%;
-  margin-top: 30px;
-  padding-bottom: 26px;
+  padding:5% 0;
 }
 .sez_5_blocchi h2 {
   font-size: -webkit-xxx-large;
@@ -460,8 +459,8 @@ color:#33475b;
 /* fine QUINTA sezione ------------------*/
 /* inizio SESTA sezione----------------- */
 #sez_6 {
-  height: 300px;
-  padding:5% 10%;
+
+  padding:10% 10%;
   color:#33475b;
 }
 .sez_6_contenitore {
@@ -473,6 +472,17 @@ color:#33475b;
   float: left;
   width: 30%;
   height: 150px;
+}
+#sez_6_testo > span {
+  font-size: -webkit-xxx-large;
+}
+#sez_6_testo > p {
+  line-height: 1.8;
+  margin-top:4px;
+  letter-spacing: 1.4px;
+}
+#sez_6_testo > p > span {
+  font-size: x-large;
 }
 /* fine DIV SINISTRA di TESTO */
 /* inizio  LOGHI DESTRA*/
@@ -492,7 +502,7 @@ color:#33475b;
 .sez_6_logo {
   width: 25%;
   float: left;
-  padding:12px;
+  padding:18px;
 }
 .sez_6_logo img{
   width: 100%;
@@ -510,19 +520,45 @@ color:#33475b;
   color:#33475b;
 }
 #sez_7_testo {
-  width: 45%;
+  width: 47%;
   height: 100%;
+}
+#sez_7_testo > h2{
+  font-size: xx-large;
+}
+#sez_7_testo > p:nth-child(2) {
+  margin-top: 14px;
+  line-height: 1.4;
+  letter-spacing: 1.2px;
+}
+#sez_7_testo > a{
+    background-color: #ff7a59;
+    width: 35%;
+    color: white;
+    border-radius: 5px;
+    padding-top: 14px;
+    display: inline-block;
+    height: 50px;
+    text-decoration: none;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    text-align: center;
 }
 /* fine SETTIMA sezione------------- */
 
-
-
-
-
-
-
 footer {
   padding: 30% 0;
-  background-color: violet;
+  background-color: #33475b;
+  
+}
+#footer {
   border:1px solid black;
+}
+#footer:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.footer_liste > li > a {
+  color:#cbd6e2;
 }
